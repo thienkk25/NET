@@ -1,0 +1,11 @@
+Để sử dụng project:
+
+B1: Có phần mềm quản lý cơ sở dữ liệu --> import file (.bacpac or .bak) hoặc
+restore database file .mdf (trong thư mục Database).
+
+B2: Mở project bằng Visual Studio, chọn View > Server Explorer để kết nối database, Properties server vừa kết nối copy chuỗi "Data Source ..." ở Connection String.
+
+B3: Chọn View > Solution Explorer > SoLienLac > Class > sqlserver.cs
+mở file sqlserver.cs sửa giá trị của biến connSt bằng giá trị vừa copy. Lưu lại.
+
+--> Chạy project và tận hưởng thôi 😊.
